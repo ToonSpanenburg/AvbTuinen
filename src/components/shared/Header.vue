@@ -13,7 +13,7 @@
     </a>
   </div>
   <div class="col text-center">
-    <a href="">Test</a>
+    <a href="">Introductie</a>
   </div>
   <div class="col text-center">
     <a href="">Test</a>
