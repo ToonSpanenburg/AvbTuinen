@@ -3,8 +3,8 @@
 </script>
 
 <template>
-<div class="row p-4 align-items-center">
-  <div class="col-6 ps-3">
+<div class="row m-4 align-items-center">
+  <div class="col-6 ms-3">
     <img src="/logo.jpg" alt="">
   </div>
   <div class="col text-center">
