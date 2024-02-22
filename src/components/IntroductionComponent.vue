@@ -10,7 +10,7 @@
         <h2 class="myText">
           Avb Tuinen
         </h2>
-        <div class="mt-3 w-50">
+        <div class="mt-3 w-50 mb-auto">
           <p class="myText">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam consequatur, corporis illum ipsam necessitatibus quidem totam! Aut beatae, consequatur cupiditate eaque eius ipsam magnam minima numquam possimus quaerat qui.
           </p>
@@ -35,23 +35,19 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 95%;
   position: absolute;
   filter: blur(1px);
+  z-index: -1;
 }
 
 .content {
   position: relative;
   z-index: 1;
   color: antiquewhite;
-  padding: 20px;
+  padding: 40px;
 }
-.myText
-{
-  font-family: Baskerville Serif;
-  font-weight: lighter;
-  color: antiquewhite;
-}
+
 h2
 {
   font-size: 4em;

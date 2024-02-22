@@ -3,3 +3,9 @@ body
     padding: 0;
     margin:0;
 }
+.myText
+{
+    font-family: Baskerville Serif;
+    font-weight: lighter;
+    color: antiquewhite;
+}
