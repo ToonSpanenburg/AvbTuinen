@@ -16,10 +16,10 @@
     <a href="">Introductie</a>
   </div>
   <div class="col text-center">
-    <a href="">Test</a>
+    <a href="">Diensten</a>
   </div>
   <div class="col text-center">
-    <a href="">Test</a>
+    <a href="">Contact</a>
   </div>
 </div>
 </template>

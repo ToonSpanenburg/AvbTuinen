@@ -4,6 +4,7 @@
  import WelcomeComponent from "@/components/WelcomeComponent.vue";
  import IntroductionComponent from "@/components/IntroductionComponent.vue";
  import DienstenComponent from "@/components/DienstenComponent.vue";
+ import ContactComponent from "@/components/ContactComponent.vue";
 </script>
 
 <template>
@@ -11,6 +12,7 @@
   <WelcomeComponent/>
   <IntroductionComponent/>
   <DienstenComponent/>
+  <ContactComponent/>
   <Footer/>
 </template>
 

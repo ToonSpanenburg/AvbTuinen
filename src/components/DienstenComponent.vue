@@ -18,7 +18,7 @@ const alleDiensten = ref(Diensten.getAllDiensten());
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consectetur corporis, in iusto magnam molestiae officiis porro? Aliquam consequatur delectus doloribus impedit in magni, nesciunt nostrum odit officiis quis, soluta.
           </p>
-          <div v-for="dienst in alleDiensten" class="col-3 mt-3">
+          <div v-for="dienst in alleDiensten" style="cursor: pointer;" class="col-3 mt-3 Dienst">
             <IndividueleDienstComponent :Dienst="dienst"/>
           </div>
         </div>
@@ -29,6 +29,14 @@ const alleDiensten = ref(Diensten.getAllDiensten());
 </template>
 
 <style scoped>
+.Dienst
+{
+  transition: transform 0.3s ease;
+}
+.Dienst:hover
+{
+  transform: scale(1.15);
+}
 .DienstenPadding {
   padding-top: 30px;
   padding-left: 40px;
