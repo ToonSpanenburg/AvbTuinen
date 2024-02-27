@@ -6,7 +6,7 @@
   <div>
     <div class="BgImage"></div>
     <div class="content">
-      <div class="container m-5 p-5">
+      <div class="container p-5">
         <h2 class="myText">
           Avb Tuinen
         </h2>
@@ -61,4 +61,16 @@ p
   font-size: 1.4em;
 }
 
+@media (max-width: 1200px) {
+    p
+    {
+        font-size: 1em;
+    }
+}
+@media (min-width: 1200px) {
+    p
+    {
+       font-size: 1.2em;
+    }
+}
 </style>
