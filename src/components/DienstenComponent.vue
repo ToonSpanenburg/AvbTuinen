@@ -37,11 +37,7 @@ const alleDiensten = ref(Diensten.getAllDiensten());
 {
   transform: scale(1.15);
 }
-.DienstenPadding {
-  padding-top: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
-}
+
 h2{
   font-family: Baskerville Serif;
   font-size: 3em;
